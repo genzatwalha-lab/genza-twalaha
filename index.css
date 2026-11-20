@@ -1,0 +1,181 @@
+/* GENERAL PAGE STYLING */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f8;
+    color: #333;
+}
+
+/* HEADER DESIGN */
+
+header {
+    background-color: #071d49;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #f5c542;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 17px;
+}
+
+/* NAVIGATION MENU */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    background-color: #174a8b;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    background-color: #f5c542;
+    color: #071d49;
+}
+
+/* MAIN CONTENT */
+
+main {
+    margin: 25px;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+h2 {
+    color: #071d49;
+    text-align: center;
+}
+
+h3 {
+    color: #174a8b;
+}
+
+/* HOME PAGE IMAGE */
+
+.main-image {
+    width: 80%;
+    max-width: 700px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* SERVICES PAGE */
+
+.service {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #f5c542;
+    border-radius: 8px;
+    box-shadow: 2px 3px 6px gray;
+}
+
+/* FORM DESIGN */
+
+form {
+    background-color: white;
+    width: 60%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px gray;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #071d49;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: none;
+    border: 2px solid #174a8b;
+}
+
+/* BUTTON DESIGN */
+
+button {
+    background-color: #071d49;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #f5c542;
+    color: #071d49;
+}
+
+/* FOOTER DESIGN */
+
+footer {
+    background-color: #071d49;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 600px) {
+
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    nav a {
+        padding: 10px;
+        margin: 3px;
+    }
+
+    main {
+        margin: 10px;
+    }
+
+    .main-image {
+        width: 100%;
+        height: auto;
+    }
+
+}
